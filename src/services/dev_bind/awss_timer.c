@@ -18,7 +18,7 @@ int awss_stop_timer(void *timer)
     if (timer == NULL)
         return 0;
     HAL_Timer_Stop(timer);
-    HAL_Timer_Delete(timer);
+    //HAL_Timer_Delete(timer);
     return 0;
 }
 #if 0
